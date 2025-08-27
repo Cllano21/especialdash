@@ -137,5 +137,6 @@ st.dataframe(df_pur_f[["PO","ProductLine","SKU","QtyOrdered","QtyReceived","Orde
 # Ejecutar Streamlit en Render
 # -----------------------------
 if __name__ == "__main__":
-    import streamlit.web.bootstrap
-    streamlit.web.bootstrap.run(run_path="app.py", command_line=[], args=["--server.port", str(port), "--server.headless", "true"])
+    # En Docker, Streamlit ya se ejecuta con el comando CMD del Dockerfile
+    # No necesitamos la configuración adicional para Render
+    pass

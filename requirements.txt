@@ -1,5 +1,5 @@
 # Dependencias principales
-Flask==2.3.6
+Flask==2.3.3
 dash==2.18.1
 plotly==5.20.0
 pandas==2.1.1
